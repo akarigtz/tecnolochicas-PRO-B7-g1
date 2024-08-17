@@ -1,0 +1,136 @@
+<!-- Tipo de documento -->
+<!DOCTYPE html>
+
+<!-- html: etiqueta principal, engloba toda la página, nada va fuera de esta etiqueta. -->
+<!-- lang="es": lenguaje de la página -->
+
+<html lang="es">
+<!-- head: Configuraciones, que no se ven en el sitio -->
+<!-- conectar archivos, describir el sitio, poner tamaños -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title: Titúlo de la pestaña de la página -->
+    <title>Mi primer página</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--     <style>
+        body {
+            color: red;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style> 
+-->
+
+</head>
+
+<!-- body: Contenido visible de la página -->
+<!-- Aquí vamos a ocupar nuestro catálogo de etiquetas-->
+
+<!-- <body style="background-color: aqua;"> -->
+
+<body>
+    <!-- Cabeceras -->
+    <header>
+        <a href="https://tecnolochicas.mx/" target="_blank">
+            <img id="logo" src="https://tecnolochicas.mx/public/images/tecnolochicas-logo.png"
+                alt="logo technolochicas">
+        </a>
+        <ul id="navegacion">
+            <li><a href="#gatito">Gatitos</a></li>
+            <li><a href="#perrito">Perritos</a></li>
+            <li><a href="https://tecnolochicas.mx/" target="_blank">Technolochicas</a></li>
+        </ul>
+    </header>
+
+    <!-- Contenido Central -->
+    <main>
+
+        <h1 class="texto-centrado">¡Hola mundo!</h1>
+        <h4 class="texto-centrado">con mascotas UnUr</h4>
+        <!--         <h2>Hola mundo!</h2>
+        <a href="#perrito">
+            <h2>Perritos</h2>
+        </a>
+
+        <h3>Hola mundo!</h3>
+        <h4>Hola mundo!</h4>
+        <h5>Hola mundo!</h5>
+        <h6>Hola mundo!</h6>
+ -->
+        <!--  <ol>
+            <li>Gatitos</li>
+            <li>Perritos</li>
+            <li>Technolochicas</li>
+        </ol> -->
+
+
+        <div class="texto-centrado">
+            <p class="inline-block mascota texto-centrado">
+                <!-- Mark funciona para resaltar el texto con amarillo. -->
+                Me <mark>gusta</mark> la <i>sandia</i> porque me da la <s>alegría</s> de mis <b>mascotas</b>.
+            </p>
+        </div>
+
+        <h2 id="gatito">Los gatitos</h2>
+        <p>Los gatos, criaturas enigmáticas y cautivadoras, son verdaderas maravillas de la naturaleza. Su gracia felina
+            y su independencia los convierten en compañeros fascinantes. Sus ojos, ventanas a un alma misteriosa,
+            brillan con una inteligencia astuta y una curiosidad innata. Dotados de un oído excepcional y un olfato
+            agudo, exploran el mundo con una percepción sensorial que escapa a nuestra comprensión humana. Sus ágiles
+            cuerpos, diseñados para la caza y la exploración, se mueven con una elegancia y precisión impresionantes.
+            Pero más allá de su destreza física, los gatos poseen una capacidad única para brindar confort y compañía.
+            Su ronroneo, una melodía relajante, tiene el poder de aliviar el estrés y calmar el alma. Su presencia, a
+            veces distante y otras afectuosa, nos recuerda la importancia de valorar los momentos de conexión genuina.
+            En cada gato reside un universo de maravillas por descubrir, un enigma que nos invita a observar, aprender y
+            amar sin condiciones. </p>
+        <p class="texto-centrado">
+            <img class="mascota"
+                src="https://img.freepik.com/foto-gratis/adorable-ilustracion-gatitos-jugando-bosque-generative-ai_260559-483.jpg"
+                alt="Imagen gatito">
+        </p>
+
+        <h2 id="perrito">Los perritos</h2>
+        <p>
+            Los perros, compañeros leales y amigos incondicionales, son seres maravillosos que enriquecen nuestras vidas
+            con su amor y devoción. Su mirada llena de ternura y su cola que se mueve sin cesar son un reflejo de su
+            alegría y entusiasmo por la vida. Su olfato prodigioso y su oído agudo los convierten en exploradores
+            incansables, siempre dispuestos a descubrir nuevos aromas y sonidos. Sus cuerpos, adaptados a diversas
+            tareas, demuestran una resistencia y una energía inagotables. Pero más allá de sus habilidades físicas, los
+            perros poseen una capacidad única para conectar con nuestros corazones. Su lealtad inquebrantable y su
+            empatía innata los convierten en confidentes y terapeutas silenciosos. Su presencia, siempre dispuesta a
+            jugar o a brindar consuelo, nos recuerda la importancia de vivir el presente y disfrutar de los pequeños
+            placeres de la vida. En cada perro reside un espíritu noble y generoso, un compañero fiel que nos enseña el
+            verdadero significado del amor incondicional.
+        </p>
+        <p class="texto-centrado">
+            <img class="mascota" src="imagenes/perrito.jpg" alt="Imagen de Perrito">
+        </p>
+        <p>
+            No puedo decidirme entre perros y gatos, porque ambos tienen su toque.
+        </p>
+
+        <p>
+            <a href="https://tecnolochicas.mx/" target="_blank">Technolochicas</a>
+        </p>
+
+        <p>
+            <a href="https://tecnolochicas.mx/" target="_blank">
+                <button>Presioname</button>
+            </a>
+        </p>
+    </main>
+
+    <!-- Pié de página -->
+    <footer>
+        <h5>Hecho por Akari (<i><a href="https://www.linkedin.com/in/akari-gutierrez/">akari.gutierrez</a></i>) en <b>Technolochicas PRO</b></h5>
+        <h6>
+            <a href="contacto.html">Contacto</a>
+        </h6>
+    </footer>
+</body>
+
+</html>

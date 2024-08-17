@@ -1,0 +1,71 @@
+/* Selector Universal*/
+* {
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* Selector de etiqueta:
+Ocupa el nombre de la etiqueta y modifica todas las ocurrencias (todos los nombre iguales).
+
+*/
+
+body {
+    background-color: whitesmoke;
+    padding: 0.5em 2em 0.8em 2em;
+}
+
+p {
+    color: darkblue;
+}
+
+footer {
+    text-align: end;
+}
+/* Selector de clase */
+/* Vamos a cambiar a toodos los elementos que tengan esa clase, para que todo lo que tenga la misma clase tenga el mismo formato. */
+.mascota {
+    margin: 10px;
+    padding: 10px;
+    border: 25px solid #000;
+    width: 200px;
+    height: auto;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* Selector por ID*/
+
+/* Nos permite seleccionar un elemento único dentro del sitio, este sólo debe aplicar a un elemento en su sitio*/
+#logo {
+    width: 150px;
+}
+
+#navegacion {
+    display: inline;
+}
+
+#contacto {
+    background-image: url("imagenes/perrito.webp");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50% 50%;
+}
+
+/* Selector combinado 
+
+Aquí podemos combinar más de una opción 
+para ir filtrando mis etiquetas.
+*/
+
+#navegacion li{
+    display: inline;
+}
